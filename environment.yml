@@ -1,9 +1,13 @@
-name: parsing_pptx
+name: bayronds
 channels:
   - conda-forge
   - defaults
 dependencies:
   - spacy==2.0.16
+  - PyPDF2==1.26.0
   - jupyter==1.0.0
+  - gensim==3.4.0
   - pip:
+    - lxml==4.2.3
+    - python-docx==0.8.6
     - python-pptx==0.6.10
