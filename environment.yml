@@ -1,9 +1,0 @@
-name: parsing_pptx
-channels:
-  - conda-forge
-  - defaults
-dependencies:
-  - spacy==2.0.16
-  - jupyter==1.0.0
-  - pip:
-    - python-pptx==0.6.10
