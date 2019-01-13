@@ -11,3 +11,4 @@ dependencies:
     - lxml==4.2.3
     - python-docx==0.8.6
     - python-pptx==0.6.10
+    - msgpack==0.5.6
